@@ -1,0 +1,5 @@
+1- abrir primeiramente o arquivo login.html
+2- Login: root@gmail.com senha: 123
+3 - clique em adicionar produto e insira as informações dele
+4 - clique em cadastrar
+5 - aperte o botão voltar para visualizar a tabela de produtos
