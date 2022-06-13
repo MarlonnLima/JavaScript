@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+body{
+	background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.tabela {
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+	
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title> Cadastro de Produto</title>
+		<link rel = "stylesheet" href = "bootstrap.css">
+	</head>
+
+	<body id="body">
+		<h1 class = "h1centro">Cadastro de produto </h1>
+			<div class = "d-flex justify-content-center">
+				<form>
+					<input type = "number" id = "Id" placeholder="ID"><br>
+					<input type = "text" id = "Nome" placeholder="nome"><br>
+					<input type = "number" id = "Valor" placeholder="valor"><br>
+					<select id ="Categoria">
+
+						<option> Frutas </option>
+						<option> Roupas </option>
+						<option> Carros </option>
+						<option> Outros </option>
+
+					</select><br>
+					<input type = "text" id = "Descricao" placeholder = "Descrição"><br>
+
+					<div class = "col-sm-6">
+
+						<label id = "label1"> Data criação: </label>
+						<input type = "date" id = "DataCriacao"><br>
+
+						<label id = "label2"> Data modificação: </label>
+						<input type = "date" id = "Datamodificacao">
+					
+					</div>
+				</form>
+			</div>
+			
+
+		<div class ="d-flex justify-content-center col-sm-11">
+
+			<button class = "btn btn-dark" id = "buttoncadastrar" type = "button" onclick = "cadastraProduto()"> cadastrar produto </button>
+				
+		</div>
+		
+		<div class = "d-flex justify-content-center col-sm-11">
+
+			<a href="lista.html" id = "buttonvoltar" class= "btn btn-dark"> Voltar </a>	
+
+		</div>
+		
+		<script src = "funcoes.js"> </script>
+
+	</body>
+</html>	
